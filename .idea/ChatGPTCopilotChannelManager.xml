@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatGPTCopilotChannelManager">
+    <dynamicCommends>
+      <option value="解释" />
+      <option value="翻译为中文" />
+      <option value="翻译为英文" />
+      <option value="检查代码问题" />
+      <option value="优化代码" />
+    </dynamicCommends>
+    <chatChannels>
+      <chatChannel>
+        <option name="model" value="gpt-3.5-turbo" />
+        <option name="messages">
+          <Message>
+            <option name="content" value="忽略所有的node_modules文件" />
+            <option name="id" value="1683186954284" />
+            <option name="role" value="user" />
+          </Message>
+          <Message>
+            <option name="content" value="如果您想要忽略所有的node_modules文件，可以在您的项目的.gitignore文件中添加以下规则：&#10;&#10;```&#10;node_modules/&#10;```&#10;&#10;这样，git就会忽略所有的node_modules文件，不会将它们包含在代码库中。请注意，这仅适用于您的本地项目和git仓库，不会影响其他地方使用npm安装依赖项。" />
+            <option name="id" value="1683186954432" />
+            <option name="role" value="assistant" />
+          </Message>
+        </option>
+      </chatChannel>
+    </chatChannels>
+  </component>
+</project>
